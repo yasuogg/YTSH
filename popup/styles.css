@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Headings */
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Labels */
+  label {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button */
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Status Message */
+  .status-message {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+  }
+  
+  .success {
+    color: green;
+    display: block;
+  }
+  
+  .error {
+    color: red;
+    display: block;
+  }
+  

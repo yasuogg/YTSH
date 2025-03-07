@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings</title>
+  <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+</head>
+<body>
+  <div class="container">
+    <h2>Extension Settings</h2>
+
+    <label for="sheetId">Google Sheet ID</label>
+    <input type="text" id="sheetId" placeholder="Enter Sheet ID">
+
+    <label for="sheetName">Sheet Name</label>
+    <input type="text" id="sheetName" placeholder="Enter Sheet Name">
+
+    <button id="save">Save Settings</button>
+
+    <div id="status" class="status-message"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
