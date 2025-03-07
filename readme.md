@@ -1,11 +1,12 @@
-# **Chrome Extension - Google Sheets Integration**  
+# **Chrome Extension - Save YouTube Links to Google Sheets**  
 
 ## 🚀 Overview  
-This Chrome extension allows users to **store Google Sheet IDs and Sheet Names** for seamless integration with Google Sheets. It provides a **simple, clean, and modern UI** for managing settings, offering a smooth experience for users who want to link their Google Sheets with ease.
+This Chrome extension allows users to **save YouTube video links, durations, and personal comments** directly to a **Google Sheet**. It provides a **simple, clean, and modern UI** for seamless integration, making it easy to keep track of videos you watch.
 
 ## 🛠️ Features  
-✅ **Save Google Sheet ID & Name**  
+✅ **Save YouTube Video URL, Duration & Comment**  
 ✅ **Persistent Storage with Chrome Sync**  
+✅ **One-Click Save from YouTube Page**  
 ✅ **Modern UI with Interactive Feedback**  
 ✅ **Validation for Empty Fields**  
 
@@ -16,28 +17,32 @@ This Chrome extension allows users to **store Google Sheet IDs and Sheet Names**
 4. Click **Load Unpacked** and select the project folder.  
 
 ## 🖥️ Usage  
-1. Click the extension icon in Chrome.  
-2. Enter your **Google Sheet ID** and **Sheet Name**.  
-3. Click **Save Settings**.  
-4. Your settings will be stored and used by the extension to integrate with Google Sheets seamlessly.
+1. Open a YouTube video.  
+2. Click the extension icon in Chrome.  
+3. The video link and duration will be automatically retrieved.  
+4. Enter your comment (optional).  
+5. Click **Save to Google Sheet**.  
+6. Your data will be saved to the linked Google Sheet.  
 
-## 📂 Project Structure 
-/extension-folder
-│── popup.html # UI for settings
-│── styles.css # Modern styles
-│── popup.js # Handles storage & interactions
-│── manifest.json # Chrome extension config
-
+## 📂 Project Structure  
+/extension-folder  
+│── popup.html # UI for settings and saving data  
+│── styles.css # Modern styles  
+│── popup.js # Handles storage & interactions  
+│── background.js # Manages YouTube data extraction  
+│── manifest.json # Chrome extension config  
 
 ## 🎨 UI Preview  
-<img src="1.png" alt="Extension UI" width="300"/>
-<img src="2.png" alt="Extension UI" width="300"/>
-<img src="3.png" alt="Extension UI" width="300"/>
+<img src="1.png" alt="Extension UI" width="300"/>  
+<img src="2.png" alt="Extension UI" width="300"/>  
+<img src="3.png" alt="Extension UI" width="300"/>  
 
 ## 🛠️ Tech Stack  
 - **HTML, CSS, JavaScript**  
 - **Chrome Storage API**  
+- **YouTube API for Video Duration**  
+- **Google Sheets API**  
 - **Modern UI/UX**  
 
 ## 📝 License  
-This project is **open-source** and free to use. Feel free to fork and contribute!  
+This project is **open-source** and free to use. Feel free to fork and contribute!
